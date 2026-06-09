@@ -7,13 +7,13 @@ Connects to a TLS endpoint, performs the handshake, and prints the full certific
 ## Install
 
 ```sh
-go install tls-checker@latest
+go install github.com/denis-zakharov/tls-checker@latest
 ```
 
 Or build from source:
 
 ```sh
-git clone ...
+git clone https://github.com/denis-zakharov/tls-checker
 cd tls-checker
 go build -o tls-checker .
 ```
